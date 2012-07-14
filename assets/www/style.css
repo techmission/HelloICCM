@@ -1,0 +1,8 @@
+div[data-role="content"] {
+  background-color: #82CFFD	
+}
+
+div.dynamic {
+  border: 1px solid black;
+  margin: 2px;	
+}
