@@ -16,7 +16,7 @@ public class MainActivity extends DroidGap {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN | 
         WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN);
         
-        super.loadUrl("file:///android_asset/www/index.html");
+        super.loadUrl("http://christianvolunteering.org/HelloICCMServer/index.html");
         
         // We shouldn't have to do this!
         this.appView.setInitialScale(100);
