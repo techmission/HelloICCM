@@ -1,11 +1,6 @@
 div[data-role="content"] {
   background-color: #82CFFD;
-  padding: 0px;
+  padding: 20px;
   border: 0px;
   margin: 0px;
-}
-
-div.dynamic {
-  border: 1px solid black;
-  margin: 2px;	
 }
