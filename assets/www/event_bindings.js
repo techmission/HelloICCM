@@ -10,3 +10,8 @@ $(document).delegate('div[data-role="page"]', 'pageshow', function () {
   );
   $(this).find('[data-role="content"]').css('min-height', content_height - extra_height);
 });
+
+$(document).delegate('#personal_greeting_button', 'click', function() {
+   $('#name').html($('#name_input').val());
+   $.mobile.changePage('#personal_greeting');
+});

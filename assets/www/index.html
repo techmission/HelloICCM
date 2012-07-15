@@ -21,7 +21,38 @@
 	  </div>
 	  <div data-role="footer" data-position="fixed">
 	   <a href="#greeting" data-role="button" data-icon="home" class="ui-btn-active ui-state-persist">Greeting</a>
+	   <a href="#personal_greeting_prompt" data-role="button" data-icon="info">Personal Greeting</a>
 	  </div> 
-    </div>  
+    </div>
+    <div data-role="page" id="personal_greeting_prompt"> 
+	  <div data-role="header" data-position="fixed">
+	    This is the Header
+	  </div> 
+	  <div data-role="content">
+	    <fieldset>
+		  <div data-role="fieldcontain">
+		    <label for="name_input">What is your name?</label>
+			<input type="text" name="name" id="name_input" />
+	      </div>
+          <button id="personal_greeting_button" type="submit" data-theme="b" name="submit" value="submit-value">Submit</button>
+	    </fieldset>
+	  </div>
+	  <div data-role="footer" data-position="fixed">
+	   <a href="#greeting" data-role="button" data-icon="home">Greeting</a>
+	   <a href="#personal_greeting_prompt" data-role="button" data-icon="info" class="ui-btn-active ui-state-persist">Personal Greeting</a>
+	  </div> 
+    </div> 
+    <div data-role="page" id="personal_greeting"> 
+	  <div data-role="header" data-position="fixed">
+	    This is the Header
+	  </div> 
+	  <div data-role="content">
+	    <h1>Hello, <span id="name"></span>!</h1>
+	  </div>
+	  <div data-role="footer" data-position="fixed">
+	   <a href="#greeting" data-role="button" data-icon="home">Greeting</a>
+	   <a href="#personal_greeting_prompt" data-role="button" data-icon="info">Personal Greeting</a>
+	  </div> 
+    </div>   
   </body>
 </html>
